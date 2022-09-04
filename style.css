@@ -19,5 +19,61 @@
 body {
   font: 18px "Space Grotesk", sans-serif;
   color: var(--primary);
-  /* background-color: var(--light); */
+}
+
+.container {
+  background-color: red;
+}
+
+/* Top section */
+.card-preview {
+  height: 15rem;
+  color: var(--white);
+  background-color: var(--primary);
+  position: relative;
+}
+
+.card-preview__back img,
+.card-preview__front img {
+  width: 80%;
+  height: auto;
+  position: absolute;
+  right: 15px;
+  top: 30px;
+}
+
+.card-preview__front img {
+  left: 15px;
+  top: 120px;
+}
+
+.card-preview__front {
+  position: relative;
+}
+
+.card-preview__front .card-logo {
+  width: 70px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.card-preview__front p.card-number {
+  width: fit-content;
+  position: absolute;
+  top: 205px;
+  left: 37px;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+}
+
+.card-preview__front .card-details {
+  width: 70%;
+  font-size: 12px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 245px;
+  left: 37px;
 }
