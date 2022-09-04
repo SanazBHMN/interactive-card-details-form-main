@@ -31,7 +31,7 @@ body {
 
 .card-preview__back img,
 .card-preview__front img {
-  width: 80%;
+  width: 333px;
   height: auto;
   position: absolute;
   right: 15px;
@@ -48,10 +48,13 @@ body {
 }
 
 .card-preview__front .card-logo {
-  width: 70px;
   position: absolute;
   top: 20px;
   left: 20px;
+}
+
+.card-preview__front .card-logo img {
+  width: 60px;
 }
 
 .card-preview__front p.card-number {
